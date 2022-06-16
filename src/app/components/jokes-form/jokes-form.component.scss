@@ -1,0 +1,52 @@
+.jokes-form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  background-color: rgb(13, 194, 176);
+  padding: 25px;
+  border-radius: 5px;
+}
+
+.jokes-form-row {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.align-items-start {
+  align-items: start;
+}
+
+.jokes-form__input {
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: lightgray;
+  font-style: italic;
+}
+
+.jokes-form__validator {
+    color: darkred;
+    font-style: italic;
+}
+
+.jokes-form__button {
+  padding: 5px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(31, 37, 44);
+  color: inherit;
+
+  &:hover {
+    cursor: pointer;
+    background-color: rgb(62, 67, 73);
+  }
+
+  &:active {
+    background-color: rgb(31, 37, 44);
+  }
+}

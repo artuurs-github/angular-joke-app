@@ -1,0 +1,22 @@
+// Komponentes stiliem ir lielāka prioritāte nekā global stiliem.
+
+// .title {
+//   color: gold;
+// }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+  background-color: rgb(58, 59, 68);
+  border-radius: 5px;
+  gap: 25px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.app__header {
+  text-align: center;
+}

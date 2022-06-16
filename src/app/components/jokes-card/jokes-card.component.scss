@@ -1,0 +1,51 @@
+.jokes-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+
+  color: black;
+  background-color: rgb(238, 237, 235);
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.jokes-card-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.jokes-card-buttons-container {
+  display: flex;
+  gap: 5px;
+}
+
+.jokes-card__button {
+  padding: 5px 15px;
+
+  background-color: rgb(246, 210, 5);
+  border: none;
+  border-radius: 5px;
+
+  &:hover {
+    cursor: pointer;
+    opacity: 0.75;
+  }
+
+  &:active {
+    opacity: 1;
+  }
+}
+
+.jokes-card__button--secondary {
+  background-color: rgb(207, 0, 57);
+  color: white;
+}
+
+.hidden {
+  color: rgb(238, 237, 235);
+}
+
+.remove {
+  display: none;
+}

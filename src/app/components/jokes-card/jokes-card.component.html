@@ -1,0 +1,21 @@
+<div class="jokes-card-container">
+  <div class="jokes-card-text-container">
+    <span>{{ joke?.question }}</span>
+    <span class="hidden" #jokeAnswer>{{ joke?.answer }}</span>
+  </div>
+  <div class="jokes-card-buttons-container">
+    <button
+      class="jokes-card__button"
+      #tellMeButton
+      (click)="toggleJokeAnswer()"
+    >
+      Tell me
+    </button>
+    <button
+      class="jokes-card__button jokes-card__button--secondary"
+      (click)="deleteJoke()"
+    >
+      Delete
+    </button>
+  </div>
+</div>

@@ -1,0 +1,10 @@
+<div class="jokes-list-container">
+  <app-jokes-card
+    *ngFor="let joke of jokes; let i = index"
+    [joke]="joke"
+    (deleteJokeEvent)="deleteJoke(i)"
+  >
+    {{ joke.question }}
+    {{ joke.answer }}
+  </app-jokes-card>
+</div>
