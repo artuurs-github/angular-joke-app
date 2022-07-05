@@ -1,4 +1,17 @@
-# AngularGhPages
+# angular-joke-app
+
+## Project link
+```
+artuurs-github-angular-joke-app.netlify.app
+```
+
+## Project description
+
+This project is a simple application - a variation of a basic ToDo app - in which the user can write down and save jokes.
+
+Made with Angular.
+
+## Available scripts
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.1.
 
